@@ -1,0 +1,84 @@
+{
+  "github_username": "AliOrynbay",
+  "gpu_uuid": "GPU-5d365dc5-35ff-82b3-ce91-bf085d8f2f7b",
+  "instance_seed": 11006944976712755476,
+  "mpi_ranks": 4,
+  "process_grid": [
+    2,
+    2
+  ],
+  "global_grid": [
+    512,
+    512
+  ],
+  "steps": 400,
+  "dt": 3.1665717793267626e-06,
+  "dt_max": 3.958214724158453e-06,
+  "kappa_max": 0.23999706380095265,
+  "serialized_ms": 1662.6697560000139,
+  "overlapped_ms": 2076.602638000054,
+  "cuda_event_serialized_ms": 1662.6728515625,
+  "cuda_event_overlapped_ms": 2076.497802734375,
+  "energy_trace_serialized": [
+    {
+      "step": 0,
+      "energy": 0.05559278977592688,
+      "residual_l2": null
+    },
+    {
+      "step": 100,
+      "energy": 0.05608952789289254,
+      "residual_l2": 12.835013431809879
+    },
+    {
+      "step": 200,
+      "energy": 0.05658629043339794,
+      "residual_l2": 12.437339620233368
+    },
+    {
+      "step": 300,
+      "energy": 0.05708306946874713,
+      "residual_l2": 12.069496220208158
+    },
+    {
+      "step": 400,
+      "energy": 0.057579860621815956,
+      "residual_l2": 11.727618658048033
+    }
+  ],
+  "energy_trace_overlapped": [
+    {
+      "step": 0,
+      "energy": 0.05559278977592688,
+      "residual_l2": null
+    },
+    {
+      "step": 100,
+      "energy": 0.05608952789289254,
+      "residual_l2": 12.835013431809879
+    },
+    {
+      "step": 200,
+      "energy": 0.05658629043339794,
+      "residual_l2": 12.437339620233368
+    },
+    {
+      "step": 300,
+      "energy": 0.05708306946874713,
+      "residual_l2": 12.069496220208158
+    },
+    {
+      "step": 400,
+      "energy": 0.057579860621815956,
+      "residual_l2": 11.727618658048033
+    }
+  ],
+  "ptx_counts": {
+    "st.shared.f64": 5,
+    "ld.shared.f64": 5,
+    "bar.sync": 1
+  },
+  "ptx_audit_passed": true,
+  "parity_max_diff": 0.0,
+  "parity_ok": true
+}
